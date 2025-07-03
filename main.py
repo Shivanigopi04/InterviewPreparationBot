@@ -36,11 +36,11 @@ db = firestore.client()
 
 LEETCODE_GRAPHQL_URL = "https://leetcode.com/graphql"
 # 🔹 Configure Gemini API
-GENAI_API_KEY = "AIzaSyA1_G2JAeNJpaUp_DrHUuUaDCeJvNOHixA"  # Replace with your actual API key
+GENAI_API_KEY = ""  # Replace with your actual API key
 genai.configure(api_key=GENAI_API_KEY)
 
 # 🔹 Firebase Authentication API Keys
-FIREBASE_API_KEY = "AIzaSyACv2f5iO06ptYa0tw2SJi6eOaGK_ogPGY"  # Replace with your actual Firebase API key
+FIREBASE_API_KEY = ""  # Replace with your actual Firebase API key
 FIREBASE_SIGNUP_URL = f"https://identitytoolkit.googleapis.com/v1/accounts:signUp?key={FIREBASE_API_KEY}"
 FIREBASE_SIGNIN_URL = f"https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key={FIREBASE_API_KEY}"
 FIREBASE_DATABASE_URL = "https://interviewprepbot-default-rtdb.firebaseio.com/"
